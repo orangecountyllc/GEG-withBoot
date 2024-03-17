@@ -16,6 +16,7 @@
 
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     
+   
 
     <style>
       .bd-placeholder-img {
@@ -109,10 +110,65 @@
     
     <!-- Custom styles for this template -->
     <link href="heroes.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> 
   </head>
 
 
-<body>    
+<body>   
+  
+  <div class="">
+    <!--    removed class  =>  bg-body-tertiary  -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <!-- <a class="navbar-brand" href="#">Navbar1</a> -->
+                  
+                  <a class="navbar-brand"  href="/">
+                    <img width="50px" src="../static/logo/l1.webp" alt="">
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">  <!--Jay changed here -->
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                      </li>
+                    
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Join us
+                        </a>
+                        <ul class="dropdown-menu text-white">
+                          <li><a class="dropdown-item" href="#">Project Manager</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Construction Manager</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">VP of Land Development </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">All opening </a></li>
+                        </ul>
+                      </li>
+    
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Free discovery call</a>    <!--  Jay - make it ghost button -->
+                      </li>
+                      
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+                  </div>
+                </div>
+              </nav>
+    
+        </div>
+
+
 <main>
   <div class="text-secondary px-5 py-5 " style="background-image: url('../../static/img/people/meeting-dec11-c.jpg'); background-size:cover; background-position: 21%; ">
 
@@ -265,6 +321,14 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+
+<script>
+  var navbar = document.querySelector(".navbar")
+  window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky"):
+      navbar.classList.remove("sticky")
+  }
 </script>
 
     </body>
