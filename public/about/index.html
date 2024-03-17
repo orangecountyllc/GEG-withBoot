@@ -17,7 +17,6 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     
    
-
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -111,12 +110,12 @@
     <!-- Custom styles for this template -->
     <link href="heroes.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css"> 
+    <!-- <link rel="stylesheet" href="style.css">  -->
+    <link rel="stylesheet" href="../static/nav_style.css"> 
   </head>
 
 
 <body>   
-  
   <div class="">
     <!--    removed class  =>  bg-body-tertiary  -->
             <nav class="navbar navbar-expand-lg">
@@ -243,18 +242,11 @@
 
 
 
-  <!-- <div class="d-lg-none">hide on lg and wider screens</div>
-  <div class="d-none d-lg-block">hide on screens smaller than lg</div>
-   -->
-
   <section class="container-full">
     <img  src="../static/img/about/sm.png" class="img-fluid d-lg-none" alt="...">
     <img src="../static/img/about/md.png" class="img-fluid d-none d-lg-block" alt="...">
   </section>
 
-  <!-- <section class="container-full">
-  <img src="../static/img/about/md.png" class="img-fluid" alt="...">
-  </section> -->
 
 
   <section class="container-full">
@@ -281,15 +273,10 @@
 <footer class="container-full text-white" style="background-image: url('../static/img/woods/burgandy.webp');">
   <div class="container ">
     <article class="d-flex flex-wrap justify-content-between align-items-center py-3">
-        
       <!-- <p class="col-md-4 mb-0  text-white">&copy; 2024 Company, Inc 1</p> -->
         <img width="75px"  src="../static/logo/l1.webp" alt="">
   
-      <a href="/" class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      </a>
-  
-      <ul class="nav col-md-4 text-white justify-content-end">
+      <ul class="nav col text-white justify-content-end">
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">About us</a></li>
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Careers</a></li>
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Investors</a></li>
@@ -331,6 +318,8 @@
       navbar.classList.remove("sticky")
   }
 </script>
+
+<script src="../static/nav_script.js"></script>
 
     </body>
 </html>

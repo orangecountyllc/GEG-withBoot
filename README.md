@@ -1,3 +1,11 @@
+FIX THIS =
+
+In home page,it takes too long for the wood to show up compared it to the about page, also check it in the mobile view. 
+
+Make the hamburger btn on right white. 
+
+
+
 Homepage start with :  file:///Users/jayp/Downloads/bootstrap-5.3.3-examples/product/index.html#
 /product/index.html#
 

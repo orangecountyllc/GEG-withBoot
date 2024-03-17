@@ -49,7 +49,7 @@
   <link rel="stylesheet" href="static-ca/iterations.css" />
   <link rel="stylesheet" href="static/css/new-home.css">
 
-  <link rel="stylesheet" media="all" href="sites/default/files/css/home/animate.css" />
+  <!-- <link rel="stylesheet" media="all" href="sites/default/files/css/home/animate.css" /> -->
 
     <style>
       .bi {
@@ -64,92 +64,64 @@
 
     
     <!-- Custom styles for this template -->
-
+    <link rel="stylesheet" href="static/nav_style.css"> 
   </head>
   <body>
+
+    <div class="">
+      <!--    removed class  =>  bg-body-tertiary  -->
+              <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar1</a> -->
+                    
+                    <a class="navbar-brand"  href="/">
+                      <img width="50px" src="../static/logo/l1.webp" alt="">
+                  </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                      <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">  <!--Jay changed here -->
+                        <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                        </li>
+                      
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Join us
+                          </a>
+                          <ul class="dropdown-menu text-white">
+                            <li><a class="dropdown-item" href="#">Project Manager</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Construction Manager</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">VP of Land Development </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">All opening </a></li>
+                          </ul>
+                        </li>
+      
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Free discovery call</a>    <!--  Jay - make it ghost button -->
+                        </li>
+                        
+                      </ul>
+                      <!-- <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form> -->
+                    </div>
+                  </div>
+                </nav>
+      
+          </div>
  
-
-
-  
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    
-    <a class="navbar-brand" href="static/logo/l1.webp"> icon2 </a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>  
-    
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-       
-        <li class="nav-item"><a class="nav-link" href="#">
-                    <!-- <img class="bi" width="24" height="24"><use xlink:href="#aperture"/></img> -->
-                    <img class="bi" width="46" height="40" src="static/logo/l1.webp" alt="">
-                    </a></li>
-
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link  active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            About us 
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Values and culture</a></li>
-            
-          </ul>
-        </li>
-        
-
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Join us 
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">link </a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Contact </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Free Discovery Call  </a>
-        </li>
-
-      </ul>
-    
-    </div>
-  </div>
-</nav>
-
-
-
-<ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
-
-
-
 <main>
-
+  
+ 
 
   <div class="p-4 p-md-5 mb-4 text-dark rounded bg-light bg-imgo ">
     <article class="top-article">
@@ -448,15 +420,10 @@
 <footer class="container-full text-white" style="background-image: url('../static/img/woods/burgandy.webp');">
   <div class="container ">
     <article class="d-flex flex-wrap justify-content-between align-items-center py-3">
-        
       <!-- <p class="col-md-4 mb-0  text-white">&copy; 2024 Company, Inc 1</p> -->
         <img width="75px"  src="../static/logo/l1.webp" alt="">
   
-      <a href="/" class="col-md-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      </a>
-  
-      <ul class="nav col-md-4 text-white justify-content-end">
+      <ul class="nav col text-white justify-content-end">
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">About us</a></li>
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Careers</a></li>
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Investors</a></li>
@@ -486,7 +453,17 @@
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
-<script type='text/javascript'src='static-ca/js/js-one.js' id='foundation-js'>  </script>
+<!-- <script type='text/javascript'src='static-ca/js/js-one.js' id='foundation-js'>  </script> -->
 
-    </body>
+<script src="static/nav_script.js"></script>
+
+<!-- <script>
+  var navbar = document.querySelector(".navbar")
+  window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky"):
+      navbar.classList.remove("sticky")
+  }
+</script> -->
+
+</body>
 </html>
