@@ -220,7 +220,29 @@
         /* height: 48px;
         margin-top: -26px; */
         /* min-height: 400px; */
+        width: 75%;
 
     }
     }        
     
+
+
+    .trail .hr {
+        display: inline-block;
+        border-top: 1px solid #3c1a4e;
+        width: 80px;
+        height: .35em;
+        margin-right: 20px
+    }
+    
+    @media screen and (max-width:39.9375em) {
+        .trail .hr {
+            display: inline-block;
+            border-top: 1px solid #3c1a4e;
+            width: 44px;
+            height: 15px;
+            margin-right: 12px;
+            float: left;
+            margin-top: 10px
+        }
+    }
