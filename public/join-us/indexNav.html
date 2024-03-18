@@ -9,14 +9,13 @@
     <meta name="generator" content="Hugo 0.122.0">
     <title>About | Equity Group </title>
 
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/"> -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-   
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -32,20 +31,20 @@
         }
       }
 
-      /* .b-example-divider {
+      .b-example-divider {
         width: 100%;
         height: 3rem;
         background-color: rgba(0, 0, 0, .1);
         border: solid rgba(0, 0, 0, .15);
         border-width: 1px 0;
         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      } */
+      }
 
-      /* .b-example-vr {
+      .b-example-vr {
         flex-shrink: 0;
         width: 1.5rem;
         height: 100vh;
-      } */
+      }
 
       .bi {
         vertical-align: -.125em;
@@ -97,81 +96,170 @@
     </style>
 
 <style>
-  @font-face {
-    font-family: eqsans;
-    src: url(../themes/fonts/Nunito/Nunito-Regular.ttf);
-  }
-  h1, h2, h3, h4, p, div, li, a  {
-    font-family: eqsans;
-  }
-</style>
+  * {
+  	margin: 0; 
+		padding: 0;
+		box-sizing: border-box;
+	}
 
+	body {
+		padding: 30px; 
+		font-family: "Helvetica Neue", helvetica, arial; 
+		background: url('https://subtlepatterns.com/patterns/white_carbonfiber.png');
+	}
+
+	#container {
+		position: relative;
+		width: 940px;		
+	}
+
+	#container:after {
+		content: "";
+		display: block;
+		clear: both;
+		height: 0;
+	}
+
+	#menu {
+		position: relative;
+		float: left;
+		width: 100%;
+		padding: 0 20px;
+		border-radius: 3px;
+		box-shadow: inset 0 1px 1px rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.15), 0 1px 3px rgba(0,0,0,.15);
+		background: #ccc; 
+	}
+
+	#menu, #menu ul {
+		list-style: none;
+	}
+
+	#menu > li {
+		float: left;
+		position: relative;
+		border-right: 1px solid rgba(0,0,0,.1);
+		box-shadow: 1px 0 0 rgba(255,255,255,.25);
+		perspective: 1000px;
+		
+	}
+
+	#menu > li:first-child {
+		border-left: 1px solid rgba(255,255,255,.25);
+		box-shadow: -1px 0 0 rgba(0,0,0,.1), 1px 0 0 rgba(255,255,255,.25);
+	}
+
+	#menu a {
+		display: block;
+		position: relative;
+		z-index: 10;
+		padding: 13px 20px 13px 20px;
+		text-decoration: none;
+		color: rgba(75,75,75,1);
+		line-height: 1;
+		font-weight: 600;
+		font-size: 12px;
+		letter-spacing: -.05em;
+		background: transparent;		
+		text-shadow: 0 1px 1px rgba(255,255,255,.9);
+		transition: all .25s ease-in-out;
+	
+	}
+
+	#menu > li:hover > a {
+		background: #333;
+		color: rgba(0,223,252,1);
+		text-shadow: none;
+	}
+
+	#menu li ul  {
+		position: absolute;
+		left: 0;
+		z-index: 1;
+		width: 200px;
+		padding: 0;
+		opacity: 0;
+		visibility: hidden;
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;
+		background: transparent;
+		overflow: hidden;
+		transform-origin: 50% 0%;
+	}
+
+
+	#menu li:hover ul {
+		
+		padding: 15px 0;
+		background: #333;
+		opacity: 1;
+		visibility: visible;
+		box-shadow: 1px 1px 7px rgba(0,0,0,.5);
+		animation-name: swingdown;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+
+	}
+
+	@keyframes swingdown {
+		0% {
+			opacity: .99999;
+			transform: rotateX(90deg);
+		}
+
+		30% {			
+			transform: rotateX(-20deg) rotateY(5deg);
+			animation-timing-function: ease-in-out;
+		}
+
+		65% {
+			transform: rotateX(20deg) rotateY(-3deg);
+			animation-timing-function: ease-in-out;
+		}
+
+		100% {
+			transform: rotateX(0);
+			animation-timing-function: ease-in-out;
+		}
+	}
+
+	#menu li li a {
+		padding-left: 15px;
+		font-weight: 400;
+		color: #ddd;
+		text-shadow: none;
+		border-top: dotted 1px transparent;
+		border-bottom: dotted 1px transparent;
+		transition: all .15s linear;
+	}
+
+	#menu li li a:hover {
+		color: rgba(0,223,252,1);
+		border-top: dotted 1px rgba(255,255,255,.15);
+		border-bottom: dotted 1px rgba(255,255,255,.15);
+		background: rgba(0,223,252,.02);
+	}
+</style>
     
     <!-- Custom styles for this template -->
     <link href="heroes.css" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="style.css">  -->
-    <link rel="stylesheet" href="../static/nav_style.css"> 
   </head>
-
-
-<body>   
-  <div class="">
-    <!--    removed class  =>  bg-body-tertiary  -->
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <!-- <a class="navbar-brand" href="#">Navbar1</a> -->
-                  
-                  <a class="navbar-brand"  href="/">
-                    <img width="50px" src="../static/logo/l1.webp" alt="">
-                </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">  <!--Jay changed here -->
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">About</a>
-                      </li>
-                    
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Join us
-                        </a>
-                        <ul class="dropdown-menu text-white">
-                          <li><a class="dropdown-item" href="#">Project Manager</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Construction Manager</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">VP of Land Development </a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">All opening </a></li>
-                        </ul>
-                      </li>
+  <body>
+  
     
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Free discovery call</a>    <!--  Jay - make it ghost button -->
-                      </li>
-                      
-                    </ul>
-                    <!-- <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form> -->
-                  </div>
-                </div>
-              </nav>
-    
-        </div>
-
-
 <main>
 
-  <!-- style="filter: brightness(75%); -->
-  <div class="text-secondary px-5 py-5 " style="background-image: url('../../static/img/people/meeting-dec11-c.jpg');  background-size:cover; background-position: 21%; ">
+
+  
+
+<!-- background-position: 50%;  filter: brightness(75%) -->
+  <div class="text-secondary px-5 py-5 " style="filter: brightness(75%); background-image: url('../../static/img/people/meeting-dec11-c.jpg'); background-size:cover; background-position: 21%; ">
+
+<!-- Navbar -->
+
+
+
+    
+<!-- Navbar -->
 
     <div class="py-5">  
     <div class="row align-items-center g-lg-5 py-5">
@@ -208,7 +296,7 @@
       <h2 class="featurette-heading fw-normal lh-1 py-3" data-aos="fade-right"  data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out" > 100+ years </h2>
       <p class="lead">of experience in management, finance and legal expertise in the industry. </p>
 
-      <h2 class="featurette-heading fw-normal lh-1 py-3"  > Done 1000s </h2>
+      <h2 class="featurette-heading fw-normal lh-1 py-3" data-aos="fade-right"  data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out" > Done 1000s </h2>
       <p class="lead">of deals in various industries. </p>
 
         <hr>
@@ -242,11 +330,18 @@
 
 
 
+  <!-- <div class="d-lg-none">hide on lg and wider screens</div>
+  <div class="d-none d-lg-block">hide on screens smaller than lg</div>
+   -->
+
   <section class="container-full">
     <img  src="../static/img/about/sm.png" class="img-fluid d-lg-none" alt="...">
     <img src="../static/img/about/md.png" class="img-fluid d-none d-lg-block" alt="...">
   </section>
 
+  <!-- <section class="container-full">
+  <img src="../static/img/about/md.png" class="img-fluid" alt="...">
+  </section> -->
 
 
   <section class="container-full">
@@ -270,22 +365,27 @@
   
 
 
-<footer class="container-full text-white" style="background-image: url('../static/img/woods/burgandy.webp');">
+<section class="container-full text-white" style="background-image: url('../static/img/woods/burgandy.webp');">
   <div class="container ">
-    <article class="d-flex flex-wrap justify-content-between align-items-center py-3">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
+        
       <!-- <p class="col-md-4 mb-0  text-white">&copy; 2024 Company, Inc 1</p> -->
         <img width="75px"  src="../static/logo/l1.webp" alt="">
   
-      <ul class="nav col text-white justify-content-end">
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      </a>
+  
+      <ul class="nav col-md-4 text-white justify-content-end">
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">About us</a></li>
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Careers</a></li>
         <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Investors</a></li>
         
       </ul>
-    </article>
+    </footer>
 
 
-    <article class="d-flex flex-wrap justify-content-between align-items-center py-3">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
       <p class="col-md-4 mb-0 ">&copy; 2024 Company, Inc</p>
   
       <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -293,16 +393,17 @@
       </a>
   
       <ul class="nav col-md-12 justify-content-end">
-        <li class=" "><a href="#" class="nav-link   text-white">Terms</a></li>
-        <!-- <li class="nav-item"><a href="#" class="nav-link px-2  text-white">|</a></li> -->
-        <li class=""><a href="#" class="nav-link   text-white">Privacy</a></li>
+        <li class="nav-item "><a href="#" class="nav-link px-2  text-white">Terms</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2  text-white">|</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2  text-white">Privacy</a></li>
         <p style="opacity: .4"> Any opinions or views stated on this website are subject to change without notice for any reason, and Equity Group reserves the right in its sole discretion, at any time and from time to time, to add, modify, or remove any of the information without any notice to you. Equity Group does not undertake, any obligation to update these webpages or otherwise notify you in the event that any views, opinions or facts stated on these webpages change or subsequently become inaccurate except to the extent required under any separate agreement between you and Equity Group.</p>
+        
+        
+        
       </ul>
-    </article>
+    </footer>
   </div>
-</footer>
-
-
+</section>
 </main>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -310,16 +411,6 @@
 <script>
   AOS.init();
 </script>
-
-<script>
-  var navbar = document.querySelector(".navbar")
-  window.onscroll = ()=>{
-      this.scrollY > 20 ? navbar.classList.add("sticky"):
-      navbar.classList.remove("sticky")
-  }
-</script>
-
-<script src="../static/nav_script.js"></script>
 
     </body>
 </html>

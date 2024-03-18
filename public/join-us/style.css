@@ -1,18 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
-
-@font-face {
-    font-family: eqsans;
-    src: url(../themes/fonts/Nunito/Nunito-Regular.ttf);
-    }
-    h1, h2, h3, h4, p, div, li, a  {
-    font-family: eqsans;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
-    /* margin: 0%;
+    margin: 0%;
     padding: 0%;
-    box-sizing: border-box; */
-    font-family: 'eqsans', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar{
@@ -100,7 +92,6 @@
     /* background: #1b1b1b; */
     background-image: url('../static/img/woods/wood1.jpeg');
     padding: 10px 10px;
-    z-index: 1;
 }
 
 .dropdown-menu {

@@ -1,8 +1,23 @@
 FIX THIS =
 
-In home page,it takes too long for the wood to show up compared it to the about page, also check it in the mobile view. 
+
+fix the main divs under home page - construct row 
+copy the construct code for bottom ones. implemtn the order then
+
+
+
+In home page,it takes too long for the wood to show up compared it to the about page, also check it in the mobile view.  I think its bc of z index , the nav is behind the big image.
+if you do hte zindex = 1 for the
+.navbar.sticky class, it resolves 
+line 99 of nav_style
+
+
 
 Make the hamburger btn on right white. 
+
+
+In about us (all) pages, the min height should be min-height: 600px for md view, not for other views.
+
 
 
 
