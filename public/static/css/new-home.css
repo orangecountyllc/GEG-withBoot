@@ -101,6 +101,7 @@ input[type=text]:focus {
 
   .sell-4-more-p{
     margin-bottom: 65px;
+    /* padding-right: 83px; */
   }
   @media only screen and (max-width: 600px) {
     .sell-4-more-p{
@@ -128,6 +129,27 @@ input[type=text]:focus {
         margin-bottom: 10px;
       }  
       }   
+
+
+  .byYourSide{
+    height: 500px;
+  }
+  @media only screen and (max-width: 600px) {
+    .byYourSide{
+      height: 400px;
+
+    }  
+    }  
+  .byYourSide-text{
+    padding:100px
+  }
+  @media only screen and (max-width: 600px) {
+    .byYourSide-text{
+      padding:40px
+
+    }  
+    }       
+      
   
 
 .hot-market-container{
