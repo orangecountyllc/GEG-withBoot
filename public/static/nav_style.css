@@ -96,6 +96,21 @@
   background-position: right 24px center; */
 }
 
+/* arrow-right-purple.svg */
+
+.wooden-a:after{
+    content: " ";
+    position: absolute;
+    right: 35px;
+    background-image: url(/static/icons/arrow-right-white.svg);
+    width: 15px;
+    height: 15px;
+    top: 26px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
  .white-ghost-button:hover {
     background-color: #fff
 }
