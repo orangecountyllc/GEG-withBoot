@@ -12,6 +12,8 @@ if you do hte zindex = 1 for the
 line 99 of nav_style
 
 
+Trail class for about and paul page.  if one works other dont. 
+
 
 Make the hamburger btn on right white. 
 

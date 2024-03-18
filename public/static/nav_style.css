@@ -234,16 +234,16 @@
 
     .trail {
         text-transform: uppercase;
-        /* color: #3c1a4e; */
-        color: white;
+        color: #3c1a4e;
+        /* color: white; */
         font-size: 14px;
         letter-spacing: 2px
     }
 
     .trail .hr {
         display: inline-block;
-        /* border-top: 1px solid #3c1a4e; */
-        border-top: 1px solid white;
+        border-top: 1px solid #3c1a4e;
+        /* border-top: 1px solid white; */
         width: 80px;
         height: .35em;
         margin-right: 20px
@@ -260,5 +260,38 @@
             margin-top: 10px
         }
     }
+
+
+    .trailw {
+        text-transform: uppercase;
+        /* color: #3c1a4e; */
+        color: white;
+        font-size: 14px;
+        letter-spacing: 2px
+    }
+
+    .trailw .hr {
+        display: inline-block;
+        /* border-top: 1px solid #3c1a4e; */
+        border-top: 1px solid white;
+        width: 80px;
+        height: .35em;
+        margin-right: 20px
+    }
+    
+    @media screen and (max-width:39.9375em) {
+        .trailw .hr {
+            display: inline-block;
+            /* border-top: 1px solid #3c1a4e; */
+            border-top: 1px solid white;
+            width: 44px;
+            height: 15px;
+            margin-right: 12px;
+            float: left;
+            margin-top: 10px
+        }
+    }
+
+
 
   
