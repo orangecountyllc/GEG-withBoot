@@ -17,7 +17,7 @@ Make the hamburger btn on right white.
 
 
 In about us (all) pages, the min height should be min-height: 600px for md view, not for other views.
-
+This can be fixed by creaing a custom class. 
 
 
 
