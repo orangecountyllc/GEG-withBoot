@@ -5,7 +5,8 @@
     src: url(../themes/fonts/Nunito/Nunito-Regular.ttf);
     }
     h1, h2, h3, h4, p, div, li, a  {
-    font-family: eqsans;
+    font-family: eqsans, Lato, sans-serif;
+    
     }
 
 *{
@@ -225,11 +226,24 @@
     }
     }        
     
+    .p-text{
+        font-size: 18px;
+        font-family: eqsans, Lato, sans-serif;
+    }
 
+
+    .trail {
+        text-transform: uppercase;
+        /* color: #3c1a4e; */
+        color: white;
+        font-size: 14px;
+        letter-spacing: 2px
+    }
 
     .trail .hr {
         display: inline-block;
-        border-top: 1px solid #3c1a4e;
+        /* border-top: 1px solid #3c1a4e; */
+        border-top: 1px solid white;
         width: 80px;
         height: .35em;
         margin-right: 20px
@@ -246,3 +260,5 @@
             margin-top: 10px
         }
     }
+
+  
