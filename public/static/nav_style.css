@@ -70,6 +70,20 @@
     background: #af1d00;
 }
 
+/* nav hover start*/
+/* on hover show subs working.  */
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown:hover .dropbtn {
+    /* background-color: #3e8e41 !important; */
+    background-image: url('../static/img/woods/wood1.jpeg');
+}
+
+/* nav hover end */
+
+
+
+
 /* .primary */
  .white-ghost-button {
     margin-left: 24px;
