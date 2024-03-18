@@ -46,14 +46,14 @@
   
 
 
-.form-small-labels{
+/* .form-small-labels{
   color:black !important; 
   font-size: 11px; 
   line-height: 12px ; 
   padding-left:3px; 
-  /* margin-top: 5px; */
   margin-left: 7px;
-}
+} */
+
 /* Full-width input fields */
 input[type=text]{
   width: 100%;
@@ -94,7 +94,9 @@ input[type=text]:focus {
   .sell-4-more-container{
     padding-left: 17px;
   }  
-  }    
+  }   
+  
+
 
 
 .hot-market-container{
