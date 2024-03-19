@@ -75,6 +75,18 @@
 </head>
 
 <body>
+
+  <!-- loader start -->
+  <div class="preloader">
+    <div class="spinner">
+        <div class="loader-logo"><img  src="../../static/logo/l1.webp">
+        </div>
+    </div>
+</div>
+<!-- loader start -->
+
+
+
   <main>
 
  <!-- nav start -->
@@ -106,7 +118,7 @@
             <ul class="dropdown-menu text-white">
               <li><a class="dropdown-item" href="/pManager">Project Manager</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/CManager">Construction Manager</a></li>
+              <li><a class="dropdown-item" href="/sitemanager">Site Manager</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="/vp-of-land">VP of Land Development </a></li>
               <li><hr class="dropdown-divider"></li>
@@ -500,6 +512,18 @@
       navbar.classList.remove("sticky")
   }
 </script> -->
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'
+        id='jquery-js'></script>
+<!-- loader start  -->
+<script type="text/javascript">
+  $(document).ready(function () {
+      console.log('1937-Checking jquery');
+      $(".loader-logo").addClass("animated fadeOut");
+      $('.preloader').delay(800).fadeOut(800); // set duration in brackets
+  });
+</script>
+<!-- loader end  -->
 
 </body>
 
