@@ -48,3 +48,8 @@ Not bootstrap 5 -   https://github.com/kmlpandey77/bootnavbar?tab=readme-ov-file
 
 # GEG-withBoot
 # GEG-withBoot
+
+Make it tight : 
+Join-us page on mobile. 
+
+

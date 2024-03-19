@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.122.0">
-    <title>About | Equity Group </title>
+    <meta name="author" content="Jay">
+
+    <link rel="icon" href="../static/logo/eqlogo.png" sizes="32x32" />
+  <link rel="icon" href="../static/logo/eqlogo.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="../static/logo/eqlogo.png" />
+    <title>Join Us | Equity Group </title>
 
     <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
@@ -98,30 +101,29 @@
 
 <style>
   @font-face {
-  font-family: eqsans;
-  src: url(../themes/fonts/Nunito/Nunito-Regular.ttf);
+    font-family: eqsans;
+    src: url(../themes/fonts/Nunito/Nunito-Regular.ttf);
   }
   h1, h2, h3, h4, p, div, li, a  {
-  font-family: eqsans;
+    font-family: eqsans;
   }
 </style>
 
     
     <!-- Custom styles for this template -->
-    <link href="heroes.css" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="style.css">  -->
     <link rel="stylesheet" href="../static/nav_style.css"> 
   </head>
 
 
 <body>   
+
+ 
+
+
   <div class="">
-    <!--    removed class  =>  bg-body-tertiary  -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <!-- <a class="navbar-brand" href="#">Navbar1</a> -->
-                  
                   <a class="navbar-brand"  href="/">
                     <img width="50px" src="../static/logo/l1.webp" alt="">
                 </a>
@@ -135,25 +137,26 @@
                       </li>
                     
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- dropdown-toggle -->
+                        <a class="nav-link dropbtn text-white" href="/join-us" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Join us
                         </a>
                         <ul class="dropdown-menu text-white">
-                          <li><a class="dropdown-item" href="#">Project Manager</a></li>
+                          <li><a class="dropdown-item" href="/pManager">Project Manager</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Construction Manager</a></li>
+                          <li><a class="dropdown-item" href="/CManager">Construction Manager</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">VP of Land Development </a></li>
+                          <li><a class="dropdown-item" href="/vp-of-land">VP of Land Development </a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">All opening </a></li>
+                          <li><a class="dropdown-item" href="">All opening </a></li>
                         </ul>
                       </li>
     
                       <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="/contact">Contact</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Free discovery call</a>    <!--  Jay - make it ghost button -->
+                        <a class="nav-link text-white" href="/free-discovery-call">Free discovery call</a>    <!--  Jay - make it ghost button -->
                       </li>
                       
                     </ul>
@@ -168,10 +171,19 @@
         </div>
 
 
+         <!-- loader start -->
+  <div class="preloader">
+    <div class="spinner">
+        <div class="loader-logo"><img  src="../../static/logo/l1.webp">
+        </div>
+    </div>
+</div>
+<!-- loader start -->
+
 <main>
 
   <!-- style="filter: brightness(75%); -->
-  <section class="text-secondary px-5 py-5 h-100" style="background-image: url('../static/img/Office/joinus1-c.jpg');  background-size:cover; background-position: 21%; ">
+  <section class="about-pic text-secondary px-5 py-5 " style="background-image: url('../../static/img/Office/joinus1-c.jpg');  background-size:cover; background-position: 21%; ">
 
     <div class="py-5">  
     <div class="row align-items-center g-lg-5 py-5">
@@ -182,7 +194,7 @@
       </div>
 
     <div class="py-5">
-      <h1 class="display-5 text-white">Join us</h1>
+      <h1 class="display-5 text-white">Join Us</h1>
       <div class="col-lg-6 mx-auto">
         <!-- <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p> -->
         
@@ -196,39 +208,156 @@
 
   <section class="container">
   <div class="row py-5">
-    <article class="col-md-7">
-      <h2 class="featurette-heading fw-normal lh-1"  data-aos="fade-right"  data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out" > Who we are  
-        <!-- <span class="text-body-secondary">It’ll blow your mind.</span> -->
-      </h2>
-      <p class="lead"> We help Americans navigate the challenges facing building their beautiful home.</p>
+    <article class="col-md-7" style="margin-bottom:40px">
+      
+      <p class="trail"><span class="hr"></span>JOIN THE TEAM</p>
+      <br/>
+      <p class="p-text"> We foster an environment where we are challenged to be better every day.
+        Everybody is encouraged to learn and grow.</p>
+        <br/>
+        <p class="p-text">
+          Our people are both driven and diverse. We encourage people from different background to apply for the various positions becuase we believe in the importance of diverse work culture.
+        </p>
+        <br/>
 
-      <h2 class="featurette-heading fw-normal lh-1 py-3" data-aos="fade-right"  data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out" > 200+ years </h2>
-      <p class="lead">of experience in Business & M&A. </p>
-
-      <h2 class="featurette-heading fw-normal lh-1 py-3" data-aos="fade-right"  data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out" > 100+ years </h2>
-      <p class="lead">of experience in management, finance and legal expertise in the industry. </p>
-
-      <h2 class="featurette-heading fw-normal lh-1 py-3"  > Done 1000s </h2>
-      <p class="lead">of deals in various industries. </p>
-
-        <hr>
-        <p class="lead">Many Americans view homeownership as a critical piece of “the American dream.”
-          <br>
-          We provide an individualized approach that helps them achieve their goal so they can live with a peace of mind and look forward to future with a bright smile. </p>
-          <button>Read faq</button>
+        <p class="p-text">
+          Diversity is great for creativity, new ideas, innovation, ability to connect with more customers, and thus increasing the productivity and reach our goals.
+        </p>
+        <br/>
+      
+          
     </article>
-
 
   
     <article class="col-md-5">
       <!-- smaller screen -->
-      <img style="border-radius: 25px;"  src="../static/img/people/Cmanager2-sm-c.jpg" class="img-fluid d-lg-none" alt="...">
+      <img style="border-radius: 25px;"  src="../static/img/people/ofst6-c.jpg" class="img-fluid d-lg-none" alt="...">
       <!-- large screen  -->
-      <img style="border-radius: 25px;"  src="../static/img/people/Cmanager2-c.jpg" class="img-fluid d-none d-lg-block" alt="...">
+      <img style="border-radius: 25px;"  src="../static/img/people/ofst6-c.jpg" class="img-fluid d-none d-lg-block" alt="...">
     </article>
 
   </div>
 </section>
+
+<!-- sec para start -->
+<section class="container">
+  <div class="row py-5">
+    <article class="col-md-6" style="margin-bottom:40px">
+      
+      <img style="border-radius: 25px;"  src="../static/img/people/pm-dir-sm-c.jpg" class="img-fluid d-lg-none" alt="...">
+      <!-- large screen  -->
+      <img style="border-radius: 25px;"  src="../static/img/people/pm-dir-sm-c.jpg" class="img-fluid d-none d-lg-block" alt="...">
+
+    </article>
+
+  
+    <article class="col-md-6">
+      <!-- smaller screen -->
+  
+      <p class="trail"><span class="hr"></span>PROJECT MANAGER</p>
+      <br/>
+      <p class="p-text"> This top-level management position comes with a customized routine that must adapt each day to the needs of the staff. 
+        </p>
+        <br>
+        <p class="p-text">
+        While the responsibilities will vary based upon the size, scope, of the work, some overarching responsibilities include:</p>
+        <br/>
+        <p class="p-text">
+          Planning budget, hiring and managing staff & contractors, conducting meetings, implementing policies, monitoriing compliance and all regulations.
+        </p>
+        <br/>
+        <br/>
+
+       
+            <div>
+              <a class=" button wooden-a mt-4" style="text-transform: capitalize; text-decoration: none;" href="/pmanager/" > Explore PM   Positions </a>
+          </div>
+    </article>
+
+  </div>
+</section>
+<!-- sec para end -->
+
+
+<!-- 3rd para start -->
+<section class="container">
+  <div class="row py-5">
+
+    <article class="col-md-6">
+      <!-- smaller screen -->
+  
+      <p class="trail"><span class="hr"></span>Construction MANAGER</p>
+      <br/>
+      <p class="p-text"> The Construction Manager manages all functions of the construction job site as it relates to building quality residential homes. 
+        </p>
+        <br>
+       
+        <br/>
+
+       
+            <div>
+              <a class=" button wooden-a mt-4" style="text-transform: capitalize; text-decoration: none;" href="/pmanager/" > Explore CM Positions </a>
+          </div>
+    </article>
+
+
+
+    <article class="col-md-6" style="margin-bottom:40px">
+      
+      <img style="border-radius: 25px;"  src="../static/img/people/Cmanager-c.jpg" class="img-fluid d-lg-none" alt="...">
+      <!-- large screen  -->
+      <img style="border-radius: 25px;"  src="../static/img/people/Cmanager-c.jpg" class="img-fluid d-none d-lg-block" alt="...">
+
+    </article>
+
+  
+  
+
+  </div>
+</section>
+<!-- 3rd para end -->
+
+
+<!-- 4th start -->
+
+<!-- sec para start -->
+<section class="container">
+  <div class="row py-5">
+    <article class="col-md-6" style="margin-bottom:40px">
+      
+      <img style="border-radius: 25px;"  src="../static/img/people/LandDev2-c.jpg" class="img-fluid d-lg-none" alt="...">
+      <!-- large screen  -->
+      <img style="border-radius: 25px;"  src="../static/img/people/LandDev2-c.jpg" class="img-fluid d-none d-lg-block" alt="...">
+
+    </article>
+
+  
+    <article class="col-md-6">
+      <!-- smaller screen -->
+  
+      <p class="trail"><span class="hr"></span>VP OF LAND DEVELOPMENT</p>
+      <br/>
+      <p class="p-text"> The VP of land development is a key role intends to drive the all things in the development process. 
+        </p>
+        <br>
+        <p class="p-text">
+          They are also responsible for taking all properties through site acquisition, zoning, permitting, and predevelopment construction.</p>
+        <br/>
+        
+        <br/>
+        <br/>
+
+       
+            <div>
+              <a class=" button wooden-a mt-4" style="text-transform: capitalize; text-decoration: none;" href="/pmanager/" > Explore Positions </a>
+          </div>
+    </article>
+
+  </div>
+</section>
+<!-- sec para end -->
+
+<!-- 4th end  -->
 
 
 
@@ -249,17 +378,23 @@
 
 
 
-  <section class="container-full">
+  <!-- <section class="container-full letswork"> -->
+    <section class="container-full letswork" style="background-image: url('../../static/img/woods/wood1.jpeg'); ">
+<!-- <div class="container "> -->
+  <!-- <div class="letswork-inner px-5 py-5  text-white" style="background-image: url('../../static/img/woods/wood1.jpeg'); background-position:center; background-size: cover"> -->
+    <div class="container text-white pt-5" >
 
-  <div class="px-5 py-5  text-white" style="min-height: 550px; background-image: url('../../static/img/woods/wood1.jpeg'); background-position:center; background-size: cover">
-    
-    <p class="lead pt-5 mb-4">CAREERS</p>
+    <p style="color: #ffffff" class="trail pt-5 mb-4"><span style="border-color: #ffffff"
+      class="hr"></span>CAREERS</p>
     <h1 class="display-5 text-start my-5" data-aos="fade-right"  data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out" >Let's work together</h1>
     <div class="col-lg-6">
-      <p class="lead mb-3 text-start my-3">Our recruitment process is very quick. We make decision in
-        days.</p>
-      <div class="py-4 d-grid gap-2 d-sm-flex justify-content-sm-start my-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">View Openings</button>
+      <!-- <p class="lead mb-3 text-start my-3">-->
+
+        <p class="p-text">Our recruitment process is very quick. We make decision in
+          days.</p>
+        <!-- py-4 -->
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-start">
+        <a class="viewOpening button wooden-a mt-4" style="text-transform: capitalize; text-decoration: none;" href="/free-discovery-call/" > VIEW OPENINGS </a>
       </div>
     </div>
   </div>
@@ -269,17 +404,17 @@
 
   
 
-
-<footer class="container-full text-white" style="background-image: url('../static/img/woods/burgandy.webp');">
+<!-- background-image: url('../static/img/woods/wood1.jpeg'); -->
+<footer class="container-full text-white" style="background-image: url('../static/img/woods/wood1.jpeg'); ">
   <div class="container ">
     <article class="d-flex flex-wrap justify-content-between align-items-center py-3">
       <!-- <p class="col-md-4 mb-0  text-white">&copy; 2024 Company, Inc 1</p> -->
         <img width="75px"  src="../static/logo/l1.webp" alt="">
   
       <ul class="nav col text-white justify-content-end">
-        <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">About us</a></li>
-        <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Careers</a></li>
-        <li class="nav-item r-5"><a href="#" class="nav-link px-2  text-white">Investors</a></li>
+        <li class="nav-item r-5"><a href="about" class="nav-link px-2  text-white">About us</a></li>
+        <li class="nav-item r-5"><a href="careers" class="nav-link px-2  text-white">Careers</a></li>
+        <li class="nav-item r-5"><a href="investors" class="nav-link px-2  text-white">Investors</a></li>
         
       </ul>
     </article>
@@ -320,6 +455,21 @@
 </script>
 
 <script src="../static/nav_script.js"></script>
+
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'
+        id='jquery-js'></script>
+
+<!-- loader start  -->
+<script type="text/javascript">
+  $(document).ready(function () {
+      console.log('1937-Checking jquery');
+      $(".loader-logo").addClass("animated fadeOut");
+      $('.preloader').delay(800).fadeOut(800); // set duration in brackets
+  });
+</script>
+<!-- loader end  -->
+
 
     </body>
 </html>
