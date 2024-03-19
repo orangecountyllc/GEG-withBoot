@@ -380,6 +380,16 @@
     margin-bottom: 5px;
     color: white;
 }
-  
 
 /* paul page end  */
+
+
+/* contact page start  */
+
+.subscribe{
+    /* background-image: url(../static/img/woods/wood2-c.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+/* contact page end */
