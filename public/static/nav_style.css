@@ -98,6 +98,9 @@
 .purpleColor{
     color: #a841ff;
 }
+.purpleColor1{
+    color: #3b104c;
+}
 
 .wooden-a {
     padding: 25px 45px;
@@ -393,3 +396,19 @@
 }
 
 /* contact page end */
+
+/* pm page start */
+
+
+.applicationsAccepted {
+    padding: 20px;
+    /* padding 20px, 0px, 0px, 20px; */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .applicationsAccepted {
+      padding: 40px;
+    }
+  }
+
+  /* pm page end */

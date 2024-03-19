@@ -1,6 +1,10 @@
 FIX THIS =
 
 
+On about and every page, the top image should have the text readable.  the brightness or something needs to be fixed. 
+
+
+
 fix the main divs under home page - construct row 
 copy the construct code for bottom ones. implemtn the order then
 
