@@ -99,6 +99,7 @@ input[type=text]:focus {
 @media only screen and (max-width: 600px) {
   .sell-4-more-container {
     padding-left: 17px;
+    margin-top: 25px;
   }
 }
 
@@ -109,7 +110,7 @@ input[type=text]:focus {
 
 @media only screen and (max-width: 600px) {
   .sell-4-more-p {
-    margin-bottom: 65px;
+    margin-bottom: 36px;
   }
 }
 
