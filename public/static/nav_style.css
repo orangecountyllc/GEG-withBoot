@@ -192,8 +192,6 @@
       
       @media only screen and (max-width: 600px) {
         .about-pic {
-          /* height: 48px;
-          margin-top: -26px; */
           min-height: 400px;
         }
       }

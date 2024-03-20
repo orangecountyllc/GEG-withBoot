@@ -1,5 +1,10 @@
 FIX THIS =
 
+fix paul's resume on his page /paul
+
+view opentings on wood on all pages, go to join us 
+careers btn at bottom go to join us
+
 
 On about and every page, the top image should have the text readable.  the brightness or something needs to be fixed. 
 
