@@ -110,7 +110,7 @@ input[type=text]:focus {
 
 @media only screen and (max-width: 600px) {
   .sell-4-more-p {
-    margin-bottom: 36px;
+    margin-bottom: 16px;
   }
 }
 
