@@ -128,6 +128,7 @@ input[type=text]:focus {
 
 .buildDiv {
   height: 45px;
+  margin-top: 50px;
 }
 @media only screen and (max-width: 600px) {
   .buildDiv {
@@ -247,3 +248,21 @@ input[type=text]:focus {
   background-color: #004b7c;
 
 }
+
+
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  /* margin: 5rem 0;  */
+  margin: 3rem 0; 
+  visibility: hidden;
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */

@@ -1,30 +1,15 @@
 FIX THIS =
-
-Fix the home page in mobile horozontal view. 
-Try using some simple ways to get it done.  like copying row, col  etc
-
-
-fix paul's resume on his page /paul
-
+Board & Paul page on mobile view height is too much compared to about page. 
 
 
 On about and every page, the top image should have the text readable.  the brightness or something needs to be fixed. 
-
 
 
 fix the main divs under home page - construct row 
 copy the construct code for bottom ones. implemtn the order then
 
 
-
-In home page,it takes too long for the wood to show up compared it to the about page, also check it in the mobile view.  I think its bc of z index , the nav is behind the big image.
-if you do hte zindex = 1 for the
-.navbar.sticky class, it resolves 
-line 99 of nav_style
-
-
 Trail class for about and paul page.  if one works other dont. 
-
 
 Make the hamburger btn on right white. 
 
