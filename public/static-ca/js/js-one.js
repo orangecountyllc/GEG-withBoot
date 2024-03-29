@@ -4689,6 +4689,7 @@
   
   (0, _jquery2.default)(".primary-menu ul li .sub-menu").hover(function () {
       (0, _jquery2.default)(this).siblings().toggleClass('background-header');
+      console.log( ' line 4692');  // jay  this was breaking the nav background color for top button. 
   });
   
   (0, _jquery2.default)(".dark-overlay").hide();
