@@ -1,4 +1,7 @@
 FIX THIS =
+
+join us page on mobile view is screwed up.  the button isn' t placed right
+
 Board & Paul page on mobile view height is too much compared to about page. 
 
 
