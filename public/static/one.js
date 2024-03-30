@@ -1,7 +1,5 @@
-"use strict";
-  console.log( ' line 1  one.js is loading =' );
+console.log( ' line 1  one.js is loading =' );
 
-  
 $(document).ready(function () {
    console.log( ' jquery loading ') ;
 
