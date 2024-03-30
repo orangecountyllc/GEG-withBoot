@@ -1,9 +1,9 @@
 "use strict";
   console.log( ' line 1  one.js is loading =' );
 
-  
-$(document).ready(function () {
-   console.log( ' jquery loading ') ;
+
+$(document).ready(function ($) {
+   console.log( 'jquery loading ') ;
 
 
    $(".primary-menu ul li .sub-menu").hover(function () {
