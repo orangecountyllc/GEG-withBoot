@@ -1,5 +1,9 @@
 FIX THIS =
 
+Image contrast:  https://css-tricks.com/methods-contrasting-text-backgrounds/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast
+
 join us page on mobile view is screwed up.  the button isn' t placed right
 
 Board & Paul page on mobile view height is too much compared to about page. 
