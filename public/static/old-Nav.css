@@ -1567,4 +1567,37 @@ header .mobile-primary-menu {
     background-image: url(../static/icons/arrow-right-purple.svg)
 }
 
+    .nav-link-2 {
+        display: block;
+        padding: 1rem 0.5rem; 
+        font-size: 13px; 
+        font-weight: 50;
+        color: white;
+        text-decoration: none;
+        background: none;
+        border: 0;
+        @include transition($nav-link-transition);
+      
+        &:hover,
+        &:focus {
+          color: white;
+          text-decoration: if($link-hover-decoration == underline, none, null);
+        }
+      
+        &:focus-visible {
+          outline: 0;
+          box-shadow: $nav-link-focus-box-shadow;
+        }
+      
+        // Disabled state lightens text
+        &.disabled,
+        &:disabled {
+          color: var(--#{$prefix}nav-link-disabled-color);
+          pointer-events: none;
+          cursor: default;
+        }
+      }
+      
+
+
 
