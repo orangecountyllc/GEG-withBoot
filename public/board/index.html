@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en" >
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -14,70 +15,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     
-   
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      /* .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      } */
-
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
-
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      }
-    </style>
+  
 
 <style>
   @font-face {
@@ -90,74 +28,139 @@
 </style>
 
     
-    <!-- Custom styles for this template -->
-    <!-- <link rel="stylesheet" href="style.css">  -->
-    <link rel="stylesheet" href="../static/nav_style.css"> 
+      <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="../static/nav_style.css"> 
+  <link rel='stylesheet' href='../static/old-Nav.css' type='text/css' media='all' />    
+
   </head>
 
 
 <body>   
 
- 
-
-
-  <div class="">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <!-- <a class="navbar-brand" href="#">Navbar1</a> -->
-                  <a class="navbar-brand"  href="/">
-                    <img width="50px" src="../static/logo/l1.webp" alt="">
-                </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">  <!--Jay changed here -->
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="/about">About</a>
-                      </li>
-                    
-                      <li class="nav-item dropdown">
-                        <!-- dropdown-toggle -->
-                        <a class="nav-link  text-white" href="/join-us" role="button">Join us</a>
-                        <ul class="dropdown-menu text-white">
-                          <li><a class="dropdown-item" href="/pManager">Project Manager</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="/sitemanager">Site Manager</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="/vp-of-land">VP of Land Development </a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          
-                        </ul>
-                      </li>
-    
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="/contact">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="/free-discovery-call">Free discovery call</a>    <!--  Jay - make it ghost button -->
-                      </li>
+  <header class="header-fixed">
+    <div class="grid-container">
+      <div class="nav-menu hide-for-large">
+          <div id="nav-icon3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+  
+     <a href="/" rel="home"><img class="logo-header white-logo" src="../static/logo/l1.webp"></a>
+     <a href="/" rel="home"><img class="logo-header black-logo" src="../static/logo/l1.webp"></a>
+  
+  
+  <!-- loader start -->
+    <div class="preloader">
+      <div class="spinner">
+          <div class="loader-logo"><img  src="../static/logo/l1.webp">
+          </div>
+      </div>
+  </div>
+  <!-- loader end -->
+  
+      <div class="primary-menu show-for-large">
+          <div class="menu-main-menu-container">
+              <ul id="menu-main-menu" class="menu">
+  
+                  <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1943"><a
+                                  href="/">Home</a></li>
+  
+                  <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-479 is-active">
+                      <a href="../about">About Us</a>
                       
-                    </ul>
-                    <!-- <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form> -->
+                      <ul class="sub-menu">            
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-455"><a
+                                  href="../values-and-culture/">Culture &#038; Values</a></li>
+                      </ul>
+                  </li>
+  
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1942">
+                      <a href="../../join-us/index.html">Join Us</a>
+                      <ul class="sub-menu">
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                  href="../pmanager">Project-Manager</a></li>
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                  href="../sitemanager"> Construction Manager</a></li>
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                  href="../vp-of-land"> VP of Land Development </a></li>
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                  href="../interns"> Internship </a></li>
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page "><a
+                                      href="../join-us">All Openings</a></li>                                                                        
+                      </ul>
+                  </li>
+                  
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                          href="../contact/">Contact</a></li>
+                  
+                          <li class="white-ghost-button menu-item menu-item-type-custom menu-item-object-custom ">
+                              <a href="../free-discovery-call/" > Free Discovery call
+                                  </a>
+                                </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  
+  
+  <div class="nav-menu-container hide-for-large-only">
+      <div class="grid-container">
+          <div class="grid-x grid-margin-x align-middle text-center">
+              <div class="cell large-12 navigation-container">
+  
+                  <div class="menu-secondary-menu-container">
+                      <ul id="menu-secondary-menu" class="menu">
+                          
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-498"><a
+                                  href="/"><h2>Home</h2>  </a></li>
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-498"><a
+                                  href="../about/"><h2>About</h2>  </a></li>
+                                 
+                          <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494"><a
+                                  href="../values-and-culture/index.html"> <h2> Values &#038; Culture </h2></a></li> -->
+                          
+                          <li class="non-link menu-item menu-item-type-custom menu-item-object-custom menu-item-1124">
+                              <a></a></li>
+  
+                          <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1142"><a
+                                      href="../../join-us/index.html"><h2>Join Us</h2></a></li>
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045"><a
+                                  href="../join-us/openings/index.html"> <h2>Openings</h2></a></li>
+                           
+                          <li class="non-link menu-item menu-item-type-custom menu-item-object-custom menu-item-1125">
+                              <a></a></li>
+                          
+                          <!--  -->
+  
+                              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-499"><a
+                                  rel="noopener" href="../investors"> <h2>Investors</h2>
+                                  </a></li>
+  
+                          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464"><a
+                                  href="../contact"><h2>Contact</h2></a></li>
+                         
+                      </ul>
                   </div>
-                </div>
-              </nav>
-    
-        </div>
+              </div>
+          </div>
+      </div>
+  </div>
+      </header>
+  
+  
+           <!-- loader start -->
+    <div class="preloader">
+      <div class="spinner">
+          <div class="loader-logo"><img  src="../static/static/logo/l1.webp">
+          </div>
+      </div>
+  </div>
+  <!-- loader end -->
 
-
-         <!-- loader start -->
-  <div class="preloader">
-    <div class="spinner">
-        <div class="loader-logo"><img  src="../../static/logo/l1.webp">
-        </div>
-    </div>
-</div>
-<!-- loader start -->
+ 
 
 <main>
 
@@ -268,7 +271,7 @@
 
 
     <article class="d-flex flex-wrap justify-content-between align-items-center py-3">
-      <p class="col-md-4 mb-0 ">&copy; 2024 </p>
+      <p class="col-md-4 mb-0 ">&copy; 2024 Equity Group</p>
   
       <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg> -->
@@ -301,11 +304,14 @@
   }
 </script>
 
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'
+        id='jquery-js'></script>
+
+
+
 <script src="../static/nav_script.js"></script>
 
 
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'
-        id='jquery-js'></script>
 
 <!-- loader start  -->
 <script type="text/javascript">
