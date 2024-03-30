@@ -171,7 +171,7 @@
 <main>
 
   <!-- style="filter: brightness(75%); --> 
-  <section class="about-pic text-secondary px-5 py-5 " style="background-image: url('../../static/img/Office/Board-Room1-c.jpg');  background-size:cover; background-position: 21%; ">
+  <section class="about-pic text-secondary px-5 py-5 " style="background-image: url('../static/img/Office/Board-Room1-c.jpg');  background-size:cover; background-position: 21%; ">
 
     <div class="py-5">  
     <div class="row align-items-center g-lg-5 py-5">
@@ -447,17 +447,10 @@
   AOS.init();
 </script>
 
-<script>
-  var navbar = document.querySelector(".navbar")
-  window.onscroll = ()=>{
-      this.scrollY > 20 ? navbar.classList.add("sticky"):
-      navbar.classList.remove("sticky")
-  }
-</script>
+
 
 <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1'
         id='jquery-js'></script>
-
 
 
 <script src="../static/nav_script.js"></script>
@@ -552,8 +545,8 @@
       var ctx = document.getElementById('canvas').getContext('2d');
       window.myLine = new Chart(ctx, config);
 
-      var ctx2 = document.getElementById('canvas2').getContext('2d');
-      window.myLine = new Chart(ctx2, config2);
+      // var ctx2 = document.getElementById('canvas2').getContext('2d');
+      // window.myLine = new Chart(ctx2, config2);
 
   };
 </script>
