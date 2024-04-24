@@ -38,7 +38,7 @@ https://stackoverflow.com/questions/36246878/how-to-make-a-transparent-navbar-vi
 
 
 
-
+When someone submits contact us or investors page, you shoudl receive an email. 
 
 
 
