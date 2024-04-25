@@ -140,6 +140,10 @@
     background-repeat: no-repeat;
 }
 
+.wooden-a:hover:after{
+    background-image: url(/static/icons/arrow-right-purple.svg);
+}
+
 
  .white-ghost-button:hover {
     background-color: #fff
