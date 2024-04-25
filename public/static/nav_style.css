@@ -313,6 +313,40 @@
     }
 
 
+    /* color: #fff;
+    font-size: .6em */
+
+    .trailwi {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 2px
+    }
+
+    .trailwi .hr {
+        display: inline-block;
+        border-top: 1px solid white;
+        width: 80px;
+        height: .35em;
+        margin-right: 20px;
+        /* color: #fff;
+        font-size: .6em */
+    }
+    
+    @media screen and (max-width:39.9375em) {
+        .trailwi .hr {
+            display: inline-block;
+            border-top: 1px solid white;
+            width: 44px;
+            height: 15px;
+            margin-right: 12px;
+            float: left;
+            margin-top: 10px
+        }
+    }
+
+
+
 
 
     /* loader start */

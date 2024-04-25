@@ -34,6 +34,10 @@
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="../static/nav_style.css"> 
   <link rel='stylesheet' href='../static/old-Nav.css' type='text/css' media='all' />    
+
+  <!-- swiper start -->
+<link rel="stylesheet" href="../static/css_new/swiperStyle.css">
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1TE5PEN8F"></script>
 <script>
@@ -176,27 +180,28 @@
 <main>
 
   <!-- style="filter: brightness(75%); -->
-  <section class="about-pic text-secondary px-5 py-5 " style="background-image: url('../../static/img/people/road-c.jpg');  background-size:cover; background-position: 21%; ">
 
-    <div class="py-5">  
-      <div class="row align-items-center g-lg-5 py-5">
-        <div class="col-lg-7 text-center text-lg-start">
-          <!-- <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3 ">About us</h1> -->
-          <h1 class="display-4 text-white" ></h1>
-          <!-- <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p> -->
-        </div>
+
+    <section class="about-pic text-secondary ">
+
+      <div class="swiper-container">
+      
+        <!-- swiper slides -->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url(../../static/img/people/road-c.jpg);">
+              <!-- <h2>About Uss</h2> -->
   
-      <div class="py-5">
-        <p data-aos="fade-in" data-aos-delay="200" class="trailw aos-init aos-animate"><span class="hr"></span>
-          Investor Portal</p>
-        <h1 class="display-5 text-white"> Together we can achieve more </h1>
-        
+            
+                      <div class="container  pt-5" >
+                        <p  class="trailw"><span class="hr"></span>Investors</p>     
 
-        <p style="color: white;"> Our team has decades of experience in Real Estate and a unique background in construction. <br> We offer an innovative approach to private real estate investing that allows individuals to invest in exclusive deals. </p>
-      </div>
+                        <h1 style="font-size: 3em;" class="text-white" data-aos="flip-down" data-aos-delay="1">Together we will achieve more </h1>
+                        <p style="color: white;"> Our team has decades of experience in Real Estate and a unique background in construction. <br> We offer an innovative approach to private real estate investing that allows individuals to invest in exclusive deals. </p>
+                      </div>   
+            </div>
+        </div>
     </div>
-    </div>
-  </section>
+    </section>
 
 
   <section class="container-full" style="background-color: #f4f4f4;">
@@ -215,8 +220,8 @@
         <article class="col-md-6" style="margin-bottom:40px">
           <h3>  Investor Enquiries </h3>
           <br/>
-          <h6> Please text at the number below, and we will call you back. </h6>
-            <p>Call : <a class="purpleColor" href="">650-200-3406</a></p>
+          <h6> Please send us a text, and we will call you back. </h6>
+            <!-- <p>Call : <a class="purpleColor" href="">650-200-3406</a></p> -->
         </article>
 
       
@@ -441,5 +446,8 @@
 <!-- loader end  -->
 
 
-    </body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js'></script>
+<script  src="../static/script_new/SwiperScript.js"></script>
+
+</body>
 </html>
