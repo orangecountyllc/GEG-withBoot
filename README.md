@@ -1,3 +1,11 @@
+
+For basic:  https://eqgpi.com/boardmembers_&_dealflow/
+For Full profile views :  https://eqgpi.com/boardmembers_dealflow_&_plan/
+
+For Accounting guys link is:  https://eqgpi.com/boardmembers_dealflow_&_plan/
+
+
+
 FIX THIS =
 
 Image contrast:  https://css-tricks.com/methods-contrasting-text-backgrounds/
