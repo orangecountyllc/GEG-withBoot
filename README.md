@@ -1,9 +1,10 @@
 
-For basic:  https://eqgpi.com/boardmembers_&_dealflow/
+For basic/ ops :  https://eqgpi.com/boardmembers_&_dealflow/
+
 For Full profile views :  https://eqgpi.com/boardmembers_dealflow_&_plan/
 
-For Accounting guys link is:  https://eqgpi.com/boardmembers_dealflow_&_plan/
 
+For Accounting guys link is:  https://eqgpi.com/boardmembers_dealflow_&_plan/
 
 For Legal guys link ( Create it ):  https://eqgpi.com/Boardmembers_plan_&_deal_flow
 
