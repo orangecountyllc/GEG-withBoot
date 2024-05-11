@@ -237,7 +237,7 @@
 
   <p class="p-text py-5" style="margin-bottom:60px">
     <!-- We have the best people on our team and we are confident that we will achieve rapid growth post acquisition of right companies. -->
-    We are confident that our team will achieve rapid growth after acquiring the right companies.
+    We are confident that with help of our team we will achieve rapid growth after acquiring the right companies.
   </p>
 
  
@@ -454,13 +454,19 @@
 </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C1TE5PEN8F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-C1TE5PEN8F');
-</script>
+
+
+
+if (window.location.hostname != 'localhost' && window.location.hostname != '127.0.0.1') {
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-C1TE5PEN8F');
+  </script>
+}
 <!-- Google tag (gtag.js) -->
 
     </body>
