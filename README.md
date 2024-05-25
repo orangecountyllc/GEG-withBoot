@@ -10,6 +10,10 @@ For Legal guys link ( Create it ):  https://eqgpi.com/Boardmembers_plan_&_deal_f
 LAw firm :   localhost:3000/Boardmembers_pro_law
 
 
+Images before after:  https://github.com/sylvaincombes/jquery-images-compare
+
+
+
 FIX THIS =
 
 Image contrast:  https://css-tricks.com/methods-contrasting-text-backgrounds/
