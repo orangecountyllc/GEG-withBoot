@@ -6,6 +6,8 @@ For Full profile views :  https://eqgpi.com/boardmembers_dealflow_&_plan/
 For Accounting guys link is:  https://eqgpi.com/boardmembers_dealflow_&_plan/
 
 For Legal guys link ( Create it ):  https://eqgpi.com/Boardmembers_plan_&_deal_flow
+                                            eqgpi.com/bm_plan&_deal_flow
+
 
 LAw firm :   localhost:3000/Boardmembers_pro_law
 
