@@ -9,7 +9,10 @@ For Legal guys link ( Create it ):  https://eqgpi.com/Boardmembers_plan_&_deal_f
                                             eqgpi.com/bm_plan&_deal_flow
 
 
-LAw firm :   localhost:3000/Boardmembers_pro_law
+
+
+(old) LAw firm :   localhost:3000/Boardmembers_pro_law
+LAw firm :   localhost:3000/Boardmembers_deals_and_rollup_plan
 
 
 Images before after:  https://github.com/sylvaincombes/jquery-images-compare
