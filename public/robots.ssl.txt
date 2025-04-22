@@ -3,6 +3,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://littles.co.uk/sitemap_index.xml
+Sitemap: https://  /sitemap_index.xml
 # ---------------------------
 # END YOAST BLOCK
